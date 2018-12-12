@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-
 @import "bootstrap"; 
 
 .clear {
@@ -24,6 +22,10 @@
     transform:rotate(11deg);
     -ms-transform:rotate(11deg); /* IE 9 */
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+}
+
+.logo:hover {
+  text-decoration: none;
 }
 
 .slogan {
@@ -51,9 +53,29 @@ hr {
 }
 
 h1 {
-  font-famiily: 'Oswald', sans-serif;
+  font-famiily: 'carbontyperegular';
+  font-weight: bold;
+  font-size: 48px;
 }
 
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'carbontyperegular';
+}
+
+
+.next-quote {
+  color:#f84342;
+  font-family: 'carbontyperegular';
+  font-size:20px;
+}
+
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  font-size:10px;
+}
+
+.about {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
